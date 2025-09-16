@@ -1,0 +1,76 @@
+-whatever you write in head tag will not be visible to anybody, besides title
+
+Basic HTML5: 
+-create html5 file
+-structure page with div tags
+-define basic html tags for headings, paragraphs, lists, and links
+-styling tags with a linked, external styling sheet
+
+
+Basic CSS3:
+-create css filedefine css styles for tags like headings, paragraphs, lists, and links
+-define id and class styles for div tags
+-implementing page designs with floated div tags 
+-defining styles that apply to multiple tags
+-defining styles that apply to tags only when those tags are embedded in other tags 
+
+DOCTYPE declarations are used to tell browsers that this is an HTML file
+
+-a meta tag is a label that defines everything in the document, head includes the charset meta tag which defines the character set 
+
+-the div tag with the id selectore named "wrapper" contains all the page content, by itself the tag displays no properties, it takes the shape and other attributes from the id style associated with it
+
+-you use id div tags for elements that occur only once on a page, appropriate for wrapper, banner, two columns, and footer (not appropriate for something like boxes set up in page)
+
+-css lets you control yhe look and formatting of your webpages
+
+-individual styles within a style sheet are called selectors/rules 
+
+ex:
+
+h1
+{
+color:red;
+background-color:yellow;
+}
+
+(one selector with two declarations)
+
+Defining a wrapper:
+-960 pixel width has become standard in all professional web design work flows
+
+Applying float:
+-it's often necessary to define a class style that will clear, or remove, any inherited float properties so that elements on a page revert to filling an entire row
+
+-you can use class styles repeatedly in an HTML file, they begin with "."
+
+-pseudo-class styles apply to an element only in a specific state of user activity (like clicking on or hovering over an element)
+
+Defining and applying colour scheme: 5 colours
+
+Checking a website for publishing means:
+-validating code for errors
+-testing all the links
+-checking spelling
+-evaluating for accessibility
+-testing for browser issues
+
+Can undermine your website:
+-a misspelled word on home page
+-a bad link to about us page
+-an html error message that pops up in a browser
+-links that are inaccessible to folks who can't use a mouse
+
+Testing and Troubleshooting your website:
+-save it in code editor and open in a browser
+-online tools can test code, links, accessibility of site
+-use W3C markup and/or W3C css if needed, also here is a link validator --> (http://validator.w3.org/checklink)
+-to test accessibility use WAVE 
+
+Two visual techniques:
+1. gradient backgrounds
+2. custom fonts
+
+-basic syntax for gradient property: 
+    background: linear-gradient (<to direction>, <color stop>, <color stop>)
+

@@ -86,7 +86,7 @@ only to all tags within the preceding tag*/
 /* The following pseudo-class applies to the box class when in a hovered state */
 .box:hover {
     background-color: white;
-    opacity: 1;
+    opacity: .5;
 }
 
 /* This clear class style terminates float */
